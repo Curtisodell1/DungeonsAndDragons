@@ -1,8 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import React from "react";
+import About from "./About";
+import Landing from "./Landing";
+import Reviews from "./Reviews";
+import Booking from "./Booking";
+
+
 
 function App() {
-  return <h1>Project Client</h1>;
+  return (
+    <>
+    <Landing/>
+    <About/>
+    <Reviews/>
+    <Booking/>
+    </>
+)
 }
-
 export default App;
