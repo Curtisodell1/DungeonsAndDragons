@@ -3,12 +3,14 @@ import About from "./About";
 import Landing from "./Landing";
 import Reviews from "./Reviews";
 import Booking from "./Booking";
+import Header from "./Header";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 
 function App() {
   return (
     <Router>
+    <Header/>
     <>
       <Route exact path="/">
         <Landing/>
