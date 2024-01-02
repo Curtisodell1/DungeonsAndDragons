@@ -1,0 +1,29 @@
+#header{
+    background-color: blue;
+    height: 60px;
+}
+
+#LandingPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#TripticOne{
+    background: white;
+    width: 30vw;
+    height: 90vh;
+}
+
+#TripticTwo{
+    background: gray;
+    width: 30vw;
+    height: 90vh;
+}
+
+#TripticThree{
+    background: orangered;
+    width: 30vw;
+    height: 90vh;
+}
