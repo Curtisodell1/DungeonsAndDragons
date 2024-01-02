@@ -5,3 +5,6 @@
   --text: hsla(0, 0%, 100%, 0.88);
 }
 
+@import "./components/CssComponents/ClassCss.css";
+@import "./components/CssComponents/DocumentCss.css";
+@import "./components/CssComponents/IdCss.css"
