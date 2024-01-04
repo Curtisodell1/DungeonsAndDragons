@@ -1,6 +1,15 @@
 #header{
     background-color: brown;
     height: 50px;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1000ms;
+}
+
+#header:hover{
+    transition: ease-in;
+    transition-duration: 250ms;
+    opacity: 1;
 }
 
 #LandingPage{
