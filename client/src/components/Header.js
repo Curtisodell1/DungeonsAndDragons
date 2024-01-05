@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-
+    const handleMouseOver = (e) => {
+        console.log(e)
+    }
     return(
-        <div id="header">
+        <div id="header"
+        onMouseOver={handleMouseOver}>
             <div id="ButtonContainer">
                 <Link to="/">
-                    <button>Home</button>
+                    <button> Home </button>
                 </Link>
                 <Link to="/booking">
                     <button> Booking </button>
