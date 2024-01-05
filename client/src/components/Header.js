@@ -6,8 +6,7 @@ function Header() {
         console.log(e)
     }
     return(
-        <div id="header"
-        onMouseOver={handleMouseOver}>
+        <div id="header">
             <div id="ButtonContainer">
                 <Link to="/">
                     <button> Home </button>

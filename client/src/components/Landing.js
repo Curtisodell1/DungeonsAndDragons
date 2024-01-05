@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Landing() {
     const handleMouseover = (e) => {
@@ -8,15 +9,21 @@ function Landing() {
     return(
         <div id="LandingPage">
             <div id="TripticContainer">
-                <div id="TripticOne"
-                onMouseOver={handleMouseover}
-                ></div>
-                <div id="TripticTwo"
-                onMouseOver={handleMouseover}
-                ></div>
-                <div id="TripticThree"
-                onMouseOver={handleMouseover}
-                ></div>
+                <Link to="/booking">
+                    <div id="TripticOne"
+                    onMouseOver={handleMouseover}
+                    ></div>
+                </Link>
+                <Link to="/about">
+                    <div id="TripticTwo"
+                    onMouseOver={handleMouseover}
+                    ></div>
+                </Link>
+                <Link to="/reviews">
+                    <div id="TripticThree"
+                    onMouseOver={handleMouseover}
+                    ></div>
+                </Link>
             </div>
         </div>
     )
