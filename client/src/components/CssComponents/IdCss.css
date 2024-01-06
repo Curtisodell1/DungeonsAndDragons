@@ -40,3 +40,9 @@
     width: 30vw;
     height: 85vh;
 }
+
+#BookingPath{
+    background: goldenrod;
+    height: 70vh;
+    width: 20vw;
+}
