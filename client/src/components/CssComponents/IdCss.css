@@ -23,26 +23,82 @@
     margin: 50px;
 }
 
-#TripticOne{
+#LandingToBooking{
     background: white;
     width: 30vw;
     height: 85vh;
 }
 
-#TripticTwo{
+#LandingToAbout{
     background: gray;
     width: 30vw;
     height: 85vh;
 }
 
-#TripticThree{
+#LandingToReviews{
     background: orangered;
     width: 30vw;
     height: 85vh;
 }
 
-#BookingPath{
+#ReviewsToBooking{
+    background: white;
+    height: 70vh;
+    width: 20vw;
+}
+
+#ReviewsToAbout{
+    background: gray;
+    height: 70vh;
+    width: 20vw;    
+}
+
+#ReviewsToLanding{
     background: goldenrod;
     height: 70vh;
     width: 20vw;
+}
+
+#BookingToAbout{
+    background: Gray;
+    height: 70vh;
+    width: 20vw;
+}
+
+#BookingToReviews{
+    background: orangered;
+    height: 70vh;
+    width: 20vw;
+}
+
+#BookingToLanding{
+    background: goldenrod;
+    height: 70vh;
+    width: 20vw;
+}
+
+#AboutToLanding{
+    background: goldenrod;
+    height: 70vh;
+    width: 20vw;
+}
+
+#AboutToBooking{
+    background: white;
+    height: 70vh;
+    width: 20vw;
+}
+
+#AboutToReviews{
+    background: orangered;
+    height: 70vh;
+    width: 20vw;
+}
+
+#AboutPage{
+    width: 75vw;
+    height: 10vh;
+    transition:all;
+    transition-duration: 100ms;
+    background-color: beige;
 }
