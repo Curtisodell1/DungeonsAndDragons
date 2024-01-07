@@ -6,15 +6,15 @@ function Reviews() {
         <div id="LandingPage">
             <div id="TripticContainer">
                 <Link to="/booking">
-                    <div id="BookingPath"
+                    <div id="ReviewsToBooking"
                     ></div>
                 </Link>
                 <Link to="/about">
-                    <div id="TripticTwo"
+                    <div id="ReviewsToAbout"
                     ></div>
                 </Link>
                 <Link to="/">
-                    <div id="TripticThree"
+                    <div id="ReviewsToLanding"
                     ></div>
                 </Link>
             </div>
