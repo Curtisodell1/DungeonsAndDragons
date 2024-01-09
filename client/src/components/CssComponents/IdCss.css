@@ -4,6 +4,7 @@
     opacity: 0%;
     transition: ease-out;
     transition-duration: 1000ms;
+    animation: header-load 1500ms;
 }
 
 #header:hover{
@@ -102,3 +103,4 @@
     transition-duration: 100ms;
     background-color: beige;
 }
+

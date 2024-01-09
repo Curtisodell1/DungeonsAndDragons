@@ -1,4 +1,15 @@
 body {
     margin: 0px;
-    background: black;
+    background: rgb(30, 30, 57);
+    animation: page-load 1000ms;
+}
+
+
+@keyframes header-load {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
 }
